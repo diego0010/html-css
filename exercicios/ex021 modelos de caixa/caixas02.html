@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+
+        body {font-family: Georgia, 'Times New Roman', Times, serif;}
+
+        header {background-color: burlywood;
+                padding: 10px;
+                margin: 10px;}
+
+        nav {background-color: rgb(56, 56, 56);
+            padding: 3px;
+            box-shadow: 3px -6px 1px 0px rgba(0, 0, 0, 0.339);}
+
+        nav > a { color: white;
+                text-decoration: none;
+                font-weight: bold;
+                margin: 10px;}
+
+        nav > a:hover {color: yellow;
+            text-decoration: underline;}
+
+        main {background-color: darkolivegreen;
+                padding: 10px;
+                margin: 10px;
+                border-radius: 10px;
+                box-shadow: 3px -3px 4px 4px rgba(0, 0, 0, 0.339)}
+
+        article {background-color: lightblue;
+                padding: 10px;}
+
+        article > aside {background-color: aqua;}
+
+        footer {background-color: black;
+                color: white;
+                text-align: center;
+                padding: 6px;
+                margin: 0px;}
+
+        footer > p {margin: 0px;}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias Sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, quas recusandae! Delectus, accusantium, eos tempora eius explicabo accusamus fugit nemo dolorem ipsum, voluptates deserunt expedita inventore quos error rem impedit.</p>
+                <aside>
+                    <p>Artigo escrito por Diego Souza.</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Esse site foi desenvolvido por Diego Souza.</p>
+    </footer>
+    
+</body>
+</html>

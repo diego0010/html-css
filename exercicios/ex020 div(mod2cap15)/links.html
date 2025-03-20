@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <style>
+            /* #   =   id
+               .   =   class
+               :   =   pseudo-class
+              ::   =   pseudo-elemento
+               >   =   clildren (filho) */
+
+        body{font-family: Georgia, 'Times New Roman', Times, serif;}
+
+        a {text-decoration: none;
+            color: brown; }
+        
+        a:visited {color: blue;}
+
+        a:hover {color: black;
+                text-decoration: underline;} /*decoração sublinhado*/
+
+        a:active {color: yellow;} /*estado quando clicado*/
+
+        a::after { content: '✾'; }
+
+        a::before{ content: '⍟';}
+
+    </style>
+</head>
+<body>
+
+    <h1>Personalizando Links</h1>
+    <ul>
+
+        <li><a href="https://www.youtube.com/@BestDrive10" target="_blank">Canal do Youtube</a>
+        <li><a href="https://www.linkedin.com/in/diegosouza0010/" target="_blank">Perfil do Linkedin</a>
+        <li><a href="https://www.youtube.com/watch?v=fb7umdbQb-w" target="_blank">Vídeo do Nissan Versa</a>
+
+    </ul>
+    
+</body>
+</html>
